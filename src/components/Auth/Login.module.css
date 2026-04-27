@@ -1,0 +1,111 @@
+.container {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.main-login {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    color: #2d3436;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.Spittle {
+    font-size: 14px;
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
+
+.input-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.input-login div {
+    text-align: left;
+}
+
+.input-login label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2d3436;
+}
+
+.input-login input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; 
+}
+
+.input-login input:focus {
+    outline: none;
+    border-color: #0984e3; 
+    box-shadow: 0 0 0 2px rgba(9, 132, 227, 0.1);
+}
+
+
+.submit-login {
+    margin-top: 10px;
+}
+
+.submit-login button {
+    width: 100%;
+    padding: 14px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.submit-login button:hover {
+    background-color: #074b83;
+}
+
+.submit-login button:active {
+    transform: scale(0.98);
+}
+
+.forgot-login {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #636e72;
+}
+
+.forgot-login span {
+    color: #0984e3;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.forgot-login span:hover {
+    color: #074b83;
+} 
