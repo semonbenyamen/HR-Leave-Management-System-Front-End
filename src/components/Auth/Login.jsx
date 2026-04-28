@@ -28,8 +28,12 @@ export default function Login() {
               <input type="password" placeholder="Enter your password" />
             </div>
 
+            <div className={styles["forgot-password-link"]}>
+              <Link to="/forgot-password">Forgot password?</Link>
+            </div>
+            
             <div className={styles["submit-login"]}>
-              <button>Sign In</button>
+              <button type="submit">Sign In</button>
             </div>
           </form>
         </div>
