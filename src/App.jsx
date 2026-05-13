@@ -1,5 +1,5 @@
 import {  Routes, Route } from "react-router-dom";
-import LeaveBalance from "./components/Auth/LeaveBalance";
+import LeaveBalance from "./components/LeaveBalance";
 import Login from "./components/Auth/Login"
 
 function App() {
