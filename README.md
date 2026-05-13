@@ -1,4 +1,4 @@
-# Rowan Standalone Dashboard
+# Rowan Dashboard
 
 This project contains ONLY Rowan's task:
 
