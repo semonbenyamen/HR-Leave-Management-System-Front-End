@@ -1,11 +1,15 @@
-import Login from "./components/Auth/Login";
-
+import {  Routes, Route } from "react-router-dom";
+import LeaveBalance from "./components/Auth/LeaveBalance";
+import Login from "./components/Auth/Login"
 
 function App() {
   return (
-    <>
-    <Login/>
-    </>
+   
+      <Routes>
+        <Route path="/login" element={<Login/>} />
+        <Route path="/" element={<LeaveBalance />} />
+      </Routes>
+  
   );
 }
 

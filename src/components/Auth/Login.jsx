@@ -12,7 +12,7 @@ export default function Login() {
         </div>
 
         <h2 className={styles.title}>Welcome Back</h2>
-        <p className={styles.Spittle}>
+        <p className={styles.SubTitle}>
           Sign in to your Leave Management account
         </p>
 
