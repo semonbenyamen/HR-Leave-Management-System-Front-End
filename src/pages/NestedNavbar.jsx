@@ -10,7 +10,7 @@ export default function NestedNavbar() {
   <Link className="nav-item nav-link bg-secondary text-dark border border-radius flex-shrink-0  nav-hover" to="/form">
     <i class="fa-solid fa-plus" ></i> Apply
   </Link>
-  <Link className="nav-item nav-link bg-secondary text-dark border border-radius flex-shrink-0  nav-hover" to="#">
+  <Link className="nav-item nav-link bg-secondary text-dark border border-radius flex-shrink-0  nav-hover" to="/history">
     <i class="fa-solid fa-clock-rotate-left" ></i> My Leave 
   </Link>
   <Link className="nav-item nav-link bg-secondary text-dark border border-radius flex-shrink-0  nav-hover" to="#">

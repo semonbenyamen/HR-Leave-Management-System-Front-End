@@ -2,7 +2,9 @@ import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import RegisterPage from "./pages/auth/RegisterPage";
 import LoginPage from "./pages/auth/LoginPage";
 import ApplyForm from "./Components/ApplyForm/ApplyForm";
+import LeaveHistory from "./Components/LeaveHistory/LeaveHistory";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Layout from "./pages/layout"
 
@@ -17,9 +19,10 @@ function App() {
     <Route path="/login" element={<LoginPage />} />
     <Route path="/register" element={<RegisterPage />} />
 
-      <Route path="/layout" element={<Layout />} />
-      <Route path="/form" element={<ApplyForm />} />
-
+    <Route path="/layout" element={<Layout />} />
+    <Route path="/form" element={<ApplyForm />} />
+    <Route path="/history" element={<LeaveHistory />} />
+      
   </Routes>
 
 
